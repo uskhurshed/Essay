@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "111755187979",
+    "project_id": "khurshed-apps",
+    "storage_bucket": "khurshed-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111755187979:android:28f4b68b72c8419a56340e",
+        "android_client_info": {
+          "package_name": "com.easyapps.farhang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRczSwODkpFP-YCBP9JJ8K3Lup5BdKgTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111755187979:android:4474b8b9f718d96a56340e",
+        "android_client_info": {
+          "package_name": "com.easyapps.zkplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRczSwODkpFP-YCBP9JJ8K3Lup5BdKgTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111755187979:android:cad13fb0503643d356340e",
+        "android_client_info": {
+          "package_name": "tj.ntc.easyapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRczSwODkpFP-YCBP9JJ8K3Lup5BdKgTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

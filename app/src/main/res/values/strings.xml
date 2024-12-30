@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ЭССЕ</string>
+    <string name="search_articles_hint">Найти…</string>
+    <string name="internet_error">Подключения к Интернету отсутствует!</string>
+    <string name="exit">Выход</string>
+    <string name="ok">OK</string>
+    <string name="plus">A+</string>
+    <string name="minus">A-</string>
+    <string name="letter_gh">ғ</string>
+    <string name="letter_i">ӣ</string>
+    <string name="letter_q">қ</string>
+    <string name="letter_u">ӯ</string>
+    <string name="letter_h">ҳ</string>
+    <string name="letter_j">ҷ</string>
+
+    <string name="noInternetConnection">Нет подключение к интернету!</string>
+    <string name="try_again">Повторить еще раз</string>
+
+    <string name="nav_about">О приложении</string>
+    <string name="nav_offer">Предложения разработчику</string>
+    <string name="nav_apps">[AD] Другие приложения</string>
+    <string name="nav_rate">Оцените приложения</string>
+    <string name="nav_share">Поделиться</string>
+    <string name="copy">Скопировать</string>
+    <string name="others">Другие</string>
+    <string name="go">Перейти</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
