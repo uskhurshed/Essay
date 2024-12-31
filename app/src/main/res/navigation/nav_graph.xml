@@ -19,5 +19,5 @@
     <fragment
         android:id="@+id/contentFragment"
         android:name="com.easyapps.zkplayer.fragments.ContentFragment"
-        android:label="ContentFragment" />
+        tools:layout="@layout/fragment_content"/>
 </navigation>

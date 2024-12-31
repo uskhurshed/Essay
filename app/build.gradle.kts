@@ -12,8 +12,8 @@ android {
         applicationId = "com.easyapps.zkplayer"
         minSdk = 21
         targetSdk = 35
-        versionCode = 300000000
-        versionName = "30.0"
+        versionCode = 300000001
+        versionName = "31.0"
     }
 
     signingConfigs {
@@ -42,11 +42,6 @@ android {
     buildFeatures{
         viewBinding = true
         buildConfig = true
-    }
-    bundle {
-        language {
-            enableSplit = false
-        }
     }
 }
 
