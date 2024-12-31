@@ -1,74 +1,60 @@
 package com.easyapps.zkplayer.fragments
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.easyapps.zkplayer.databinding.FragmentContentBinding
 import com.easyapps.zkplayer.utils.TempDB
 import com.easyapps.zkplayer.utils.ads.BannerAds
 
 class ContentFragment : Fragment() {
-    private var dp: Float = 6f
-    private var _binding: FragmentContentBinding? = null
-    private val binding get() = _binding!!
+
+    companion object {
+        private const val MAX_TEXT_SIZE = 55f
+        private const val MIN_TEXT_SIZE = 16f
+        private const val DEFAULT_TEXT_SIZE = 16f
+    }
+
+    private lateinit var binding: FragmentContentBinding
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentContentBinding.inflate(inflater, container, false)
+        binding = FragmentContentBinding.inflate(inflater, container, false)
         return binding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding) {
         super.onViewCreated(view, savedInstanceState)
 
-        val title = arguments?.getString("title") ?: ""
-        val content = arguments?.getString("content") ?: ""
+        detailTitleText.text = arguments?.getString("title").orEmpty()
+        detailAboutText.text = arguments?.getString("content").orEmpty()
+        detailAboutText.textSize = DEFAULT_TEXT_SIZE
 
-        binding.detailTitleText.text = title
-        binding.detailAboutText.text = content
-        BannerAds(requireContext(), binding.forad, TempDB.adsBanner)
-
-        binding.detailImageView.setOnClickListener {
-            requireActivity().onBackPressedDispatcher.onBackPressed()
+        BannerAds(requireContext(), forad, TempDB.adsBanner)
+        aPlus.setOnClickListener {
+            adjustTextSize(increment = true)
         }
 
-        binding.aPlus.setOnClickListener {
-            if (binding.detailAboutText.textSize < 55f) {
-                dp += 1f
-                binding.detailAboutText.textSize = pxFromDp(dp, requireContext())
-            }
+        aMinus.setOnClickListener {
+            adjustTextSize(increment = false)
         }
 
-        binding.aMinus.setOnClickListener {
-            if (binding.detailAboutText.textSize > 26f) {
-                dp -= 1f
-                binding.detailAboutText.textSize = pxFromDp(dp, requireContext())
-            }
+        toolbar.setOnClickListener {
+            findNavController().navigateUp()
         }
     }
 
-    private fun pxFromDp(dp: Float, mContext: Context): Float {
-        return dp * mContext.resources.displayMetrics.density
-    }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
-
-    companion object {
-        fun newInstance(title: String, content: String): ContentFragment {
-            val fragment = ContentFragment()
-            val args = Bundle().apply {
-                putString("title", title)
-                putString("content", content)
-            }
-            fragment.arguments = args
-            return fragment
-        }
+    private fun FragmentContentBinding.adjustTextSize(increment: Boolean) {
+        val currentSize = detailAboutText.textSize
+        val newSize = if (increment) (currentSize + 1f).coerceAtMost(MAX_TEXT_SIZE)
+        else (currentSize - 1f).coerceAtLeast(MIN_TEXT_SIZE)
+        detailAboutText.textSize = newSize
     }
 }
