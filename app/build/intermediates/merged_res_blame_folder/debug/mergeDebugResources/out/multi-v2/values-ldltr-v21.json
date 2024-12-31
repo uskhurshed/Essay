@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.easyapps.zkplayer.app-mergeDebugResources-66:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\khurs\\.gradle\\caches\\transforms-4\\7fcb5f4fb77c508f139fd6e5331b81af\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

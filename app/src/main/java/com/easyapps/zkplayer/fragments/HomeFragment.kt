@@ -10,8 +10,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.TextView
 import androidx.core.content.ContextCompat
+import androidx.core.view.isGone
 import androidx.navigation.fragment.findNavController
+import com.easyapps.zkplayer.BuildConfig
 import com.easyapps.zkplayer.EssayAdapter
 import com.easyapps.zkplayer.R
 import com.easyapps.zkplayer.databinding.FragmentHomeBinding
@@ -34,15 +37,32 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding){
         super.onViewCreated(view, savedInstanceState)
         setAdapter()
+
+        letterH.setOnClickListener { (it as TextView).letterClick() }
+        letterI.setOnClickListener { (it as TextView).letterClick() }
+        letterJ.setOnClickListener { (it as TextView).letterClick() }
+        letterQ.setOnClickListener { (it as TextView).letterClick() }
+        letterU.setOnClickListener { (it as TextView).letterClick() }
+        letterGh.setOnClickListener { (it as TextView).letterClick() }
+        keyboard.isGone = BuildConfig.HIDE_TJ_KEYBOARD
+        keyboard.setOnClickListener { letterLayout.isGone = !letterLayout.isGone }
     }
+
+    @SuppressLint("SetTextI18n")
+    private fun TextView.letterClick() = with(binding.searchEditText){
+        setText(text.toString() + this@letterClick.text.toString())
+        setSelection(text?.length ?: 0)
+    }
+
 
 
     @SuppressLint("NotifyDataSetChanged")
     private fun setAdapter() {
         val jsonArray = TempDB.globalJsonObject.jsonArray("langs")
+        if (jsonArray.length() == 1) binding.radioGroup.isGone = true
         for (i in 0 until jsonArray.length()) {
             val radioButton = createRadioButton()
             val jsonObject = jsonArray.jsonObject(i)

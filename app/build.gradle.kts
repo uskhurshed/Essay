@@ -14,6 +14,8 @@ android {
         targetSdk = 35
         versionCode = 300000001
         versionName = "31.0"
+        buildConfigField("String", "API_HOST", "\"razgovornik\"")
+        buildConfigField("Boolean", "HIDE_TJ_KEYBOARD", "false")
     }
 
     signingConfigs {

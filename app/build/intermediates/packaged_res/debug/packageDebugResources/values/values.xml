@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_background">#F9F9FF</color>
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onBackground">#191C20</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_onPrimaryContainer">#FFFFFF</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_onSecondaryContainer">#001B3C</color>
+    <color name="md_theme_onSurface">#191C20</color>
+    <color name="md_theme_onSurfaceVariant">#43474E</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_onTertiaryContainer">#001B3D</color>
+    <color name="md_theme_outline">#74777F</color>
+    <color name="md_theme_primary">#00A7FF</color>
+    <color name="md_theme_primaryContainer">#006394</color>
+    <color name="md_theme_secondary">#3F5F90</color>
+    <color name="md_theme_secondaryContainer">#D6E3FF</color>
+    <color name="md_theme_surface">#F9F9FF</color>
+    <color name="md_theme_surfaceVariant">#E0E2EC</color>
+    <color name="md_theme_tertiary">#3F5F90</color>
+    <color name="md_theme_tertiaryContainer">#D6E3FF</color>
+    <string name="app_name">ЭССЕ</string>
+    <string name="copy">Скопировать</string>
+    <string name="exit">Выход</string>
+    <string name="gcm_defaultSenderId" translatable="false">111755187979</string>
+    <string name="go">Перейти</string>
+    <string name="google_api_key" translatable="false">AIzaSyBRczSwODkpFP-YCBP9JJ8K3Lup5BdKgTo</string>
+    <string name="google_app_id" translatable="false">1:111755187979:android:4474b8b9f718d96a56340e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBRczSwODkpFP-YCBP9JJ8K3Lup5BdKgTo</string>
+    <string name="google_storage_bucket" translatable="false">khurshed-apps.appspot.com</string>
+    <string name="internet_error">Подключения к Интернету отсутствует!</string>
+    <string name="letter_gh">ғ</string>
+    <string name="letter_h">ҳ</string>
+    <string name="letter_i">ӣ</string>
+    <string name="letter_j">ҷ</string>
+    <string name="letter_q">қ</string>
+    <string name="letter_u">ӯ</string>
+    <string name="minus">A-</string>
+    <string name="nav_about">О приложении</string>
+    <string name="nav_apps">[AD] Другие приложения</string>
+    <string name="nav_offer">Предложения разработчику</string>
+    <string name="nav_rate">Оцените приложения</string>
+    <string name="nav_share">Поделиться</string>
+    <string name="noInternetConnection">Нет подключение к интернету!</string>
+    <string name="ok">OK</string>
+    <string name="others">Другие</string>
+    <string name="plus">A+</string>
+    <string name="project_id" translatable="false">khurshed-apps</string>
+    <string name="search_articles_hint">Найти…</string>
+    <string name="try_again">Повторить еще раз</string>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_outline</item>
+    </style>
+</resources>

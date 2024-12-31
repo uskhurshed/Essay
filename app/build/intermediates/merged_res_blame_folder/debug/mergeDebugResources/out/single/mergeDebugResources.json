@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_back_blue.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/back_blue.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_logo.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-xxhdpi_ic_daynight.png.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-xxhdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/layout_fragment_home.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_notifications.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_search.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_arrow.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_arrow.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-anydpi-v24_ic_daynight.xml.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-anydpi-v24/ic_daynight.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-xhdpi_ic_daynight.png.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-xhdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_apps.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_apps.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-mdpi_ic_daynight.png.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-mdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_shape_bg.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/shape_bg.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_go.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_go.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_flag_ru.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/flag_ru.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_flag_tj.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/flag_tj.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_share.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_back_white.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/back_white.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_message.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_message.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_tab_background.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/tab_background.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/layout_activity_main.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/layout_item_layout.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/layout/item_layout.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/layout_fragment_more.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/layout/fragment_more.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/color_text_input_selector.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/color/text_input_selector.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/layout_fragment_content.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/layout/fragment_content.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-ldpi_ic_daynight.png.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-ldpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_rb_lang_regular.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/rb_lang_regular.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_info.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_rate.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_rate.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_splash_image.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/splash_image.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/navigation_nav_graph.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_book.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_tab_selector.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/tab_selector.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-xxxhdpi_ic_daynight.png.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-xxxhdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable-hdpi_ic_daynight.png.flat",
+        "source": "com.easyapps.zkplayer.app-pngs-63:/drawable-hdpi/ic_daynight.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/layout_activity_content.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/layout/activity_content.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_ic_keyboard.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/ic_keyboard.xml"
+    },
+    {
+        "merged": "com.easyapps.zkplayer.app-debug-68:/drawable_tab_selected.xml.flat",
+        "source": "com.easyapps.zkplayer.app-main-70:/drawable/tab_selected.xml"
+    }
+]

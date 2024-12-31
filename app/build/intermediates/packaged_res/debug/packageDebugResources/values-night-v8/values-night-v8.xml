@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_background">#111318</color>
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_errorContainer">#93000A</color>
+    <color name="md_theme_onBackground">#E2E2E9</color>
+    <color name="md_theme_onError">#690005</color>
+    <color name="md_theme_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_onPrimary">#07305F</color>
+    <color name="md_theme_onPrimaryContainer">#000000</color>
+    <color name="md_theme_onSecondary">#06305F</color>
+    <color name="md_theme_onSecondaryContainer">#D6E3FF</color>
+    <color name="md_theme_onSurface">#E2E2E9</color>
+    <color name="md_theme_onSurfaceVariant">#C4C6CF</color>
+    <color name="md_theme_onTertiary">#07305F</color>
+    <color name="md_theme_onTertiaryContainer">#D6E3FF</color>
+    <color name="md_theme_outline">#8E9099</color>
+    <color name="md_theme_primary">#00A7FF</color>
+    <color name="md_theme_primaryContainer">#006394</color>
+    <color name="md_theme_secondary">#A8C8FF</color>
+    <color name="md_theme_secondaryContainer">#254777</color>
+    <color name="md_theme_surface">#111318</color>
+    <color name="md_theme_surfaceVariant">#43474E</color>
+    <color name="md_theme_tertiary">#A9C7FF</color>
+    <color name="md_theme_tertiaryContainer">#264777</color>
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_outline</item>
+
+    </style>
+</resources>
