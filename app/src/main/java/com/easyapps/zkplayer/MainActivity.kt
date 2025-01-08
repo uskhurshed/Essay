@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
-                R.id.contentFragment-> setState(visibility = false, isLight = true)
-                R.id.moreFragment-> setState(visibility = true, isLight = true)
+                R.id.contentFragment-> setState(visibility = false, isLight = false)
+                R.id.moreFragment, R.id.favoriteFragment -> setState(visibility = true, isLight = true)
                 else -> setState(visibility = true, isLight = false)
             }
         }

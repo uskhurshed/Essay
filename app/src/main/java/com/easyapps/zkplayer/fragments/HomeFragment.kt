@@ -1,6 +1,7 @@
 package com.easyapps.zkplayer.fragments
 
 import android.annotation.SuppressLint
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -11,7 +12,7 @@ import android.view.ViewGroup
 import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
-import androidx.core.content.ContextCompat
+import androidx.core.os.bundleOf
 import androidx.core.view.isGone
 import androidx.navigation.fragment.findNavController
 import com.easyapps.zkplayer.BuildConfig
@@ -68,7 +69,7 @@ class HomeFragment : Fragment() {
             val jsonObject = jsonArray.jsonObject(i)
             radioButton.text = jsonObject.string("title")
             radioButton.setOnClickListener {
-                adapter = EssayAdapter(jsonObject.jsonArray("content")) { findNavController().navigate(R.id.contentFragment, it) }
+                adapter = EssayAdapter(jsonObject.jsonArray("content")) { findNavController().navigate(R.id.contentFragment, bundleOf("json" to it.toString())) }
                 binding.searchList.adapter = adapter
             }
             binding.radioGroup.addView(radioButton)
@@ -89,7 +90,7 @@ class HomeFragment : Fragment() {
         gravity = android.view.Gravity.CENTER
         text = text
         setPadding(30.dp, 0, 30.dp, 0)
-        setTextColor(ContextCompat.getColorStateList(context, R.color.text_input_selector))
+        setTextColor(Color.WHITE)
         setBackgroundResource(R.drawable.tab_selector)
         buttonDrawable = null
     }

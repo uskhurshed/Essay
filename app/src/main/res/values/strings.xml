@@ -24,4 +24,10 @@
     <string name="copy">Скопировать</string>
     <string name="others">Другие</string>
     <string name="go">Перейти</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="bookmark_add">Добавить в закладки</string>
+    <string name="bookmark_delete">Удалить из закладки</string>
+    <string name="bookmarks_empty">Нету сохраненных загладок.</string>
+    <string name="toast_add_bookmark">Эссе добавлено в избранное</string>
+    <string name="toast_delete_bookmark">Эссе удалено из избранного</string>
 </resources>

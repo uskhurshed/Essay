@@ -11,15 +11,19 @@ import com.easyapps.zkplayer.utils.JsonUtils.string
 import org.json.JSONArray
 import org.json.JSONObject
 
-class EssayAdapter(private val essayItems: JSONArray =JSONArray(), private var onItemClick:(Bundle) -> Unit ={}) : RecyclerView.Adapter<EssayAdapter.ViewHolder>() {
+class EssayAdapter(private val essayItems: JSONArray =JSONArray(), private var onItemClick:(JSONObject) -> Unit ={}) : RecyclerView.Adapter<EssayAdapter.ViewHolder>() {
 
-    private var filteredEssayItems: List<JSONObject> = (0 until essayItems.length()).map { essayItems.getJSONObject(it) }
+    private var filteredEssayItems: List<JSONObject> = (0 until essayItems.length()).map { essayItems.optJSONObject(it) }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = filteredEssayItems[position]
         holder.binding.titleTextView.text = item.getString("title")
         holder.binding.root.setOnClickListener {
-            onItemClick.invoke(bundleOf("title" to item.string("title"), "content" to item.string("content")))
+            val jsonObject = JSONObject().apply {
+                put("title", item.string("title"))
+                put("content", item.string("content"))
+            }
+            onItemClick.invoke(jsonObject)
         }
     }
 
@@ -29,8 +33,8 @@ class EssayAdapter(private val essayItems: JSONArray =JSONArray(), private var o
 
     @SuppressLint("NotifyDataSetChanged")
     fun filterItems(query: String) {
-        filteredEssayItems = if (query.isEmpty()) (0 until essayItems.length()).map { essayItems.getJSONObject(it) }
-        else (0 until essayItems.length()).map { essayItems.getJSONObject(it) }.filter { it.getString("title").contains(query, ignoreCase = true) }
+        filteredEssayItems = if (query.isEmpty()) (0 until essayItems.length()).map { essayItems.optJSONObject(it) }
+        else (0 until essayItems.length()).map { essayItems.optJSONObject(it) }.filter { it.optString("title").contains(query, ignoreCase = true) }
         notifyDataSetChanged()
     }
 

@@ -20,4 +20,9 @@
         android:id="@+id/contentFragment"
         android:name="com.easyapps.zkplayer.fragments.ContentFragment"
         tools:layout="@layout/fragment_content"/>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.easyapps.zkplayer.fragments.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"/>
 </navigation>
