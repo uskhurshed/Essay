@@ -1,5 +1,6 @@
 package com.easyapps.zkplayer.fragments
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -57,4 +58,7 @@ class ContentFragment : Fragment() {
         else (currentSize - 1f).coerceAtLeast(MIN_TEXT_SIZE)
         detailAboutText.textSize = newSize
     }
+
+    fun  Int.dp(context: Context) = (this * context.resources.displayMetrics.density).toInt()
+
 }
